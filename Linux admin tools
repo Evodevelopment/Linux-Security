@@ -1,0 +1,45 @@
+
+As a Linux administrator, there are several commands and tools that would be particularly useful for managing and maintaining Linux systems. Here are some commonly used ones:
+
+Command-line interface (CLI) tools:
+
+ls: Lists the contents of a directory.
+cd: Changes the current directory.
+mkdir: Creates a new directory.
+rm: Removes files and directories.
+cp: Copies files and directories.
+mv: Moves or renames files and directories.
+cat: Displays the contents of a file.
+grep: Searches for a pattern in files or output.
+top: Monitors system processes and resource usage.
+ps: Lists currently running processes.
+chmod: Modifies file permissions.
+chown: Changes file ownership.
+ssh: Connects to remote systems securely.
+scp: Transfers files between local and remote systems securely.
+Package management:
+
+apt (Advanced Package Tool): Package manager used in Debian-based distributions like Ubuntu.
+yum (Yellowdog Updater, Modified): Package manager used in Red Hat-based distributions like CentOS and Fedora.
+dnf (Dandified YUM): Package manager used in newer versions of Fedora and CentOS 8+.
+System monitoring and troubleshooting:
+
+top and htop: Displays real-time system resource usage.
+free: Shows memory usage.
+df (disk free): Displays disk space usage.
+tail and grep: Useful for examining log files.
+netstat: Lists network connections and related statistics.
+ifconfig or ip: Displays network interface configuration.
+systemctl: Controls system services (start, stop, restart, enable, disable).
+Security and networking:
+
+iptables or firewalld: Configures firewall rules.
+fail2ban: Protects against brute-force attacks by blocking IP addresses.
+sshd_config: Configuration file for the SSH server.
+openssl: Manages SSL certificates and cryptographic operations.
+netplan (or other network configuration tools): Configures network interfaces.
+Automation and configuration management:
+
+Ansible: Automates configuration management, application deployment, and orchestration.
+Puppet: Provides infrastructure automation and configuration management.
+Chef: Enables infrastructure automation and application deployment.
